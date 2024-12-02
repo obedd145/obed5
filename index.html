@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restoran Hatkorr</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>      
+        .hero {
+            height: 70vh;
+            color: rgb(255, 255, 255);
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-top: 20%;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Restoran Hatkorr</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reservasi">Reservasi</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero text-center">
+        <h1>Selamat Datang di Restoran Hatkorr</h1>
+        <p>Temukan cita rasa yang tak terlupakan</p>
+        <a href="#reservasi" class="btn btn-primary btn-lg">Reservasi Sekarang</a>
+    </div>
+
+    <!-- Menu Section -->
+    <style>
+        body {
+          background-image: url("images/gaje.jpg");
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+     </style>
+    <div class="container my-5" id="menu">
+        <h2 class="text-center">Menu Kami</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/ppp.jpg" class="card-img-top" alt="Pizza">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza Spesial</h5>
+                        <p class="card-text">Pizza dengan topping segar dan keju leleh.</p>
+                        <p class="font-weight-bold">Harga: Rp 100.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/ss.jpg" class="card-img-top" alt="Pasta">
+                    <div class="card-body">
+                        <h5 class="card-title">Pasta Carbonara</h5>
+                        <p class="card-text">Pasta creamy dengan bacon dan keju parmesan.</p>
+                        <p  class="font-weight-bold">Harga: Rp 70.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/ggg.jpg" class="card-img-top" alt="Dessert">
+                    <div class="card-body">
+                        <h5 class="card-title">Kue Coklat</h5>
+                        <p class="card-text">Kue coklat lezat yang meleleh di mulut.</p>
+                        <p class="font-weight-bold">Harga: Rp 50.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/hhhh.jpg" class="card-img-top" alt="Burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Burger</h5>
+                        <p class="card-text">Burger lezat dan bergizi.</p>
+                        <p class="font-weight-bold">Harga: Rp 70.000</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/jus.jpg" class="card-img-top" alt="jus">
+                    <div class="card-body">
+                        <h5 class="card-title">Pasta Carbonara</h5>
+                        <p class="card-text">Berbagai jus yang manis.</p>
+                        <p class="font-weight-bold">Harga: Rp 40.000</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/ciken.avif" class="card-img-top" alt="Pasta">
+                    <div class="card-body">
+                        <h5 class="card-title">Grill chicken steak</h5>
+                        <p class="card-text">grill chiken steak dengan kentang goreng.</p>
+                        <p class="font-weight-bold">Harga: Rp 85.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reservasi Section -->
+    <div class="container my-5" id="reservasi">
+        <h2 class="text-center">Reservasi Meja</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nama</label>
+                <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="name" placeholder="Masukkan nama Anda" required>
+            </div>
+</form>
+</div>
+</body>
+</html>
